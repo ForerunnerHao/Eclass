@@ -5,8 +5,9 @@
 
 E-class为用户提供课程基础信息、课程进度信息和课程测验信息。 因此，数据库设计将围绕用户和课程之间的关系进行。 根据“user_type”将用户分为“学生”和“老师”，用户之间可以通过消息进行交流。 对于“学生”，他们可以进行付款、复习和加入班级（student_classroom）。 对于“老师”来说，他们可以创建课程和相应的课程信息。 此外，他们还可以管理课堂并对学生完成的测验（quiz_attempt）进行评论。 对于其他方面，系统需要记录每门课程通过课堂的时间和频率，此外还需要quiz_attempt_answer来记录学生的回答结果。
 
+![image](https://github.com/ForerunnerHao/Eclass/assets/43156626/e57b44f4-a3dd-4df4-9b47-76e9ff8cbebc)
 
-![image-20240217222344132](C:\Users\12759\AppData\Roaming\Typora\typora-user-images\image-20240217222344132.png)
+
 
 个人实现内容：
 
